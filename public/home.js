@@ -1,14 +1,14 @@
 $(document).ready(function(){
   var cards = $('.card');
-  // returns an array of DOM objects pf class card 
+  // returns an array of DOM objects pf class card
   for(let i = 0; i < $(cards).length; i++){
     let $this = $(cards[i]);
-      $this.on('mouseover', function(){
-        $this.toggleClass('hovering');
-      });
-      $this.on('click', function(){
-        $this.toggleClass('clicked');
-      });
+      // $this.on('mouseover', function(){
+        // $this.toggleClass('hovering');
+      // });
+      // $this.on('click', function(){
+        // $this.toggleClass('clicked');
+      // });
     }
 
   $('#switch').html("Montgomery County");
