@@ -8,7 +8,7 @@ const District = db.define('district', {
   },
   imgURL: {
     type: Sequelize.STRING,
-    defaultValue: '',
+    defaultValue: 'https://media.nbcwashington.com/2019/09/110718-maryland-congressional-district-map.jpg?fit=829%2C466',
     validate: {
       isUrl: true,
     }
